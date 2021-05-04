@@ -1,9 +1,28 @@
 body{
-    background-color: beige;
+    background-color: rgb(255, 46, 46);
 }
 
 div.headerForQuiz{
     text-align: center;
     background-color: white;
+    padding: 10px;
+}
+.headerForQuiz h1{
+    color: rgb(255, 46, 46);
+    background-color: black;
+    border: rgb(255, 46, 46);
+}
+
+.score{
+    text-align: center;
+    background-color: rgb(255, 46, 46);
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.quizBody{
+    color: white;
+    font-size: 15px;
     
 }
