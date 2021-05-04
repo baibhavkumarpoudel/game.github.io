@@ -8,9 +8,10 @@ div.headerForQuiz{
     padding: 10px;
 }
 .headerForQuiz h1{
-    color: rgb(255, 46, 46);
+    /* color: rgb(255, 46, 46); */
+    color: white;
     background-color: black;
-    border: rgb(255, 46, 46);
+    border:10px groove rgb(255, 46, 46);
 }
 
 .score{
@@ -22,7 +23,13 @@ div.headerForQuiz{
 }
 
 .quizBody{
+    padding: 10px 10px;
     color: white;
-    font-size: 15px;
+    /* font-size: 20px; */
     
+}
+
+.questions{
+    font-size: 20px;
+    margin: 30px;
 }
