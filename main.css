@@ -22,6 +22,12 @@ div.headerForQuiz{
     font-size: 30px;
 }
 
+/*This part took me a while because i didnt want to display the current score as user
+is taking the trivia/quiz. Let's see if this works. I added another class and hid it for now*/
+.score.hide{
+    display: none;
+}
+
 .quizBody{
     padding: 10px 10px;
     color: white;
@@ -31,7 +37,19 @@ div.headerForQuiz{
 
 .questions{
     font-size: 20px;
+    font-weight: bolder;
     margin: 30px;
+}
+
+.questions:hover{
+    transition: all 1.5s ease-in-out;
+    background-color: white;
+    Border: 5px groove green;
+    color: black;
+    box-shadow: 10px 7px 8px black;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
 }
 
 /* The submit button took some css attribute researching. This part of the project caught me 

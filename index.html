@@ -7,6 +7,10 @@
     <link href= "main.css" rel ="stylesheet" >
     <title>TRIVIA GAME</title>
 </head>
+<!-- This is where i got the best information for quiz-type sites. New phrases such as:
+    "Input" "Form" "type" "button" were all used here and it gave me a solid idea for my Body.
+https://codeactually.com/interactivequiz.html -->
+
 <body>
     <div class="headerForQuiz">
         <img src="images/GA.png" alt="general assembly pic" style="width:500px;height:300px"> 
@@ -15,78 +19,78 @@
     <div class="quizBody">
         <form class = "form" answer="">
             <div class="questions">
-                <p class="question">1. Does this work yet? </p>
+                <p class="question">1. Name of our instructors. </p>
                 <div class="answers">
                     <input type="radio" name="question1" value="A">
-                    <label class="value">Duh</label>
+                    <label class="value">Darth, Obi, Luke</label>
                 </div>
                 <div class="answers">
                     <input type="radio" name="question1" value="B">
-                    <label class="value">umm..No?</label>
+                    <label class="value">David, Leo, Casey</label>
                 </div>
                 <div class="answers">
                     <input type="radio" name="question1" value="C">
-                    <label class="value">I mean sure</label>
+                    <label class="value">Michael, Dwight, Jim</label>
                 </div>
             </div>
             <div class="questions">
-                <p class="question">2. Are you sure? </p>
+                <p class="question">2. What did we learn in the 7th day of class? </p>
                 <div class="answers">
                     <input type="radio" name="question2" value="A">
-                    <label class="value">Duh</label>
+                    <label class="value">HTML CSS</label>
                 </div>
                 <div class="answers">
                     <input type="radio" name="question2" value="B">
-                    <label class="value">umm..No?</label>
+                    <label class="value">Objects</label>
                 </div>
                 <div class="answers">
                     <input type="radio" name="question2" value="C">
-                    <label class="value">yup</label>
+                    <label class="value">Functions</label>
                 </div>
             </div>
             <div class="questions">
-                <p class="question">3. Are you sure? </p>
+                <p class="question">3. We receive a post every Wednesday on #Global Slack channel. What is that post about? </p>
                 <div class="answers">
                     <input type="radio" name="question3" value="A">
-                    <label class="value">Duh</label>
+                    <label class="value">More Coding Lessons</label>
                 </div>
                 <div class="answers">
                     <input type="radio" name="question3" value="B">
-                    <label class="value">umm..No?</label>
+                    <label class="value">Breathing + Meditation</label>
                 </div>
                 <div class="answers">
                     <input type="radio" name="question3" value="C">
-                    <label class="value">yup</label>
+                    <label class="value">Impact on Environment</label>
                 </div>
             </div>
             <div class="questions">
-                <p class="question">4. Are you sure? </p>
+                <p class="question">4. David shared an essential JS debugging video. What was the speaker's name? </p>
                 <div class="answers">
                     <input type="radio" name="question4" value="A">
-                    <label class="value">Duh</label>
+                    <label class="value">Anne Burnett</label>
                 </div>
                 <div class="answers">
                     <input type="radio" name="question4" value="B">
-                    <label class="value">umm..No?</label>
+                    <label class="value">Rebecca Hill</label>
                 </div>
                 <div class="answers">
                     <input type="radio" name="question4" value="C">
-                    <label class="value">yup</label>
+                    <label class="value">Mads Edmiston</label>
                 </div>
             </div>
             <div class="questions">
-                <p class="question">5. Are you sure? </p>
+                <p class="question">5. Leo is currently learning what particular instrument? </p>
                 <div class="answers">
                     <input type="radio" name="question5" value="A">
-                    <label class="value">Duh</label>
+                    <label class="value">Guitar</label>
                 </div>
                 <div class="answers">
                     <input type="radio" name="question5" value="B">
-                    <label class="value">umm..No?</label>
+                    <label class="value">Piano</label>
                 </div>
                 <div class="answers">
                     <input type="radio" name="question5" value="C">
-                    <label class="value">yup</label>
+                    <label class="value">Drums</label>
                 </div>
             </div>
             <div class="questions">
@@ -167,7 +171,7 @@
             <input class ="submit" type="submit" value="CLICK ME IF YOU'RE DONE :)">
         </form>   
     </div>
-    <div class="score">
+    <div class="score hide" >
         <p>Great Effort! <span class="percentage">0%</span> out of 100%</p>
     </div>
     <script src="script.js"></script>
