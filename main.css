@@ -33,3 +33,34 @@ div.headerForQuiz{
     font-size: 20px;
     margin: 30px;
 }
+
+/* The submit button took some css attribute researching. This part of the project caught me 
+off-guard because I assumed it would be easier lol. Esp when highlighted with mouse*/
+
+/*where i learned about transition https://www.w3schools.com/css/css3_transitions.asp */
+input.submit{
+    /* transition: all;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out; */
+    transition: all .3s ease-in-out;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    color: greenyellow;
+    font-size: 30px;
+    font-weight: bolder;
+    box-shadow: 10px 7px 8px white;
+    Border: 5px groove white;
+    
+}
+
+/* https://www.w3schools.com/cssref/sel_hover.asp
+https://freefrontend.com/css-hover-effects/#css-hover-effect-examples
+these sites were AWESOME. Learned something new with the hover technique */
+input.submit:hover{
+    cursor: wait;
+    background-color: white;
+    Border: 5px groove green;
+    color: black;
+    box-shadow: 10px 7px 8px black;
+}
