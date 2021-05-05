@@ -16,10 +16,12 @@ div.headerForQuiz{
 
 .score{
     text-align: center;
-    background-color: rgb(255, 46, 46);
+    background-color: beige;
     padding: 10px;
-    color: white;
-    font-size: 30px;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    border: 5px dashed green;
 }
 
 /*This part took me a while because i didnt want to display the current score as user
