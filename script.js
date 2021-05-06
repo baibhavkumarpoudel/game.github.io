@@ -26,8 +26,8 @@ gaQuiz.addEventListener('submit', function(evt){
         gaQuiz.question10.value ]
 
          //https://www.sitepoint.com/simple-javascript-quiz/
-        //Margie shared this website which had bunch of .forEach examples. Index part i have a mediocre idea 
-        //of what's going on (pulling the right answers from "rightAnswers" array)
+        //Margie shared this website which had bunch of .forEach examples and 
+        // Casey helped me wrap up pulling the right answers from "rightAnswers" array
         userAnswer.forEach(function(answer, array){
             if(answer === rightAnswers[array]){
                 score += 10
@@ -36,7 +36,7 @@ gaQuiz.addEventListener('submit', function(evt){
 //in the console but .textContent "score" gives me what i want
             console.log(score)
         })
-   //for loop. im not sure if this method will be successful but ill keep it here for now
+   //for loop. im not sure if i should this way or the if statement above. If statement is working for now
 //    for(i=0; i<userAnswer.length; i++){
 //     if(rightAnswers === userAnswer[i]){
 //     score +=10
