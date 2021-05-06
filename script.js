@@ -25,6 +25,28 @@ gaQuiz.addEventListener('submit', function(evt){
         gaQuiz.question9.value,
         gaQuiz.question10.value ]
 
+        const colorChange = [
+        gaQuiz.question1.value, 
+        gaQuiz.question2.value,
+        gaQuiz.question3.value,
+        gaQuiz.question4.value,
+        gaQuiz.question5.value,
+        gaQuiz.question6.value,
+        gaQuiz.question7.value,
+        gaQuiz.question8.value,
+        gaQuiz.question9.value,
+        gaQuiz.question10.value
+        ]
+
+        // colorChange.forEach(function(answer, array){
+        //     if (answer === rightAnswers[array]){
+        //         document.body.style.color = 'green'
+        //     }
+        //     else {
+        //         document.querySelector(colorChange[array]).style.color = 'red'
+        //     }
+        // })
+
          //https://www.sitepoint.com/simple-javascript-quiz/
         //Margie shared this website which had bunch of .forEach examples and 
         // Casey helped me wrap up pulling the right answers from "rightAnswers" array
